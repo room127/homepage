@@ -1,3 +1,6 @@
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/room127/homepage.svg?columns=all&style=flat-square)](https://waffle.io/room127/homepage)
+[![Build Status](https://travis-ci.com/room127/homepage.svg?branch=master)](https://travis-ci.com/room127/homepage)
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
