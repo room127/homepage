@@ -8,4 +8,4 @@ script:
   - yarn test
   - yarn run build
 notifications:
-  - slack: onetwentyseven:SG7VLQ1eHC34T5B57kBRu1d2
+  slack: onetwentyseven:SG7VLQ1eHC34T5B57kBRu1d2
