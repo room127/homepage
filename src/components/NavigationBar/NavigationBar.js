@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 
 import './NavigationBar.css';
 
+import logo from '../../res/tempLogo@2x.png';
+
 class NavigationBar extends Component {
 
   // componentDidMount() {
@@ -17,14 +19,18 @@ class NavigationBar extends Component {
     return (
       <div id="navigation-wrapper">
         <div id="header-content-section">
+          <img id="big-logo" src={logo} alt="Logo" />
           <div id="vertical-bar" />
-          <h1 id="header-text">web<br />development<br />collective</h1>
+          <div id="header-text">
+            <span id="bigtext">web<br />development<br />collective</span><br />
+            <span id="subtext">pushing freelance web <br />development into the<br /> future</span>
+          </div>
         </div>
         <nav id="navigation-links">
-          <Link className="nav-link" name="home" to="/" href="/">Home</Link>
-          <Link className="nav-link" name="about" to="/about" href="/about">About</Link>
+          <Link className="nav-link selected" name="home" to="/" href="/">Home</Link>
           <Link className="nav-link" name="experience" to="/experience" href="/experience">Experience</Link>
           <Link className="nav-link" name="pricing" to="/pricing" href="/pricing">Pricing</Link>
+          <Link className="nav-link" name="about" to="/about" href="/about">About</Link>
         </nav>
       </div>
     )
