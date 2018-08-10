@@ -14,7 +14,6 @@ before_script:
 after_script:
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
 script:
-  - yarn test
-  - yarn run build
+  - yarn test --coverage
 notifications:
   slack: onetwentyseven:SG7VLQ1eHC34T5B57kBRu1d2
