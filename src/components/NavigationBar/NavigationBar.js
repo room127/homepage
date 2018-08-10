@@ -27,7 +27,7 @@ class NavigationBar extends Component {
           </div>
         </div>
         <nav id="navigation-links">
-          <Link className="nav-link selected" name="home" to="/" href="/">Home</Link>
+          <Link className="nav-link" name="home" to="/" href="/">Home</Link>
           <Link className="nav-link" name="experience" to="/experience" href="/experience">Experience</Link>
           <Link className="nav-link" name="pricing" to="/pricing" href="/pricing">Pricing</Link>
           <Link className="nav-link" name="about" to="/about" href="/about">About</Link>

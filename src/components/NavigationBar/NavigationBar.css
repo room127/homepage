@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 60vh;
+  height: 70vh;
   box-sizing: border-box;
   margin: 0;
   padding: 8px;
@@ -20,8 +20,8 @@
 #vertical-bar {
   height: 350px;
   width: 1px;
-  background: #4B4B4B;
-  margin: 16px;
+  background: #707070;
+  margin: 32px;
 }
 
 #header-text {
@@ -44,23 +44,31 @@
 }
 
 #navigation-links {
+  display: flex;
+  justify-content: center;
   margin: 16px 0;
+  width: 50%;
+
 }
 
 .nav-link {
   text-decoration: none;
   color: #4B4B4B;
-  margin: 0 8px;
+  margin: 0 3.5%;
   font-size: 1.4em;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #EBABE9;
 }
 
 .selected {
   border-bottom: 2px solid #EBABE9;
-  font-weight: bold;
+  font-weight: medium;
 }
 
 @media only screen and (max-width: 690px) {
-  #vertical-bar, #big-logo {
+  #vertical-bar, #big-logo, #subtext {
     display: none;
   }
 }
