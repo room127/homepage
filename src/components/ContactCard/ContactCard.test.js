@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import ContactCard from './contact-card'
+import ContactCard from './ContactCard'
 
 it('should render', () => {
   shallow(<ContactCard />)
