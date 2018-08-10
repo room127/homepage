@@ -7,17 +7,17 @@
 
 // To learn more about the benefits of this model, read https://goo.gl/KwvDNy.
 // This link also includes instructions on opting out of this behavior.
-
+/* istanbul ignore next */
 const isLocalhost = Boolean(
   window.location.hostname === 'localhost' ||
-    // [::1] is the IPv6 localhost address.
-    window.location.hostname === '[::1]' ||
-    // 127.0.0.1/8 is considered localhost for IPv4.
-    window.location.hostname.match(
-      /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
-    )
+  // [::1] is the IPv6 localhost address.
+  window.location.hostname === '[::1]' ||
+  // 127.0.0.1/8 is considered localhost for IPv4.
+  window.location.hostname.match(
+    /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
+  )
 );
-
+/* istanbul ignore next */
 export default function register() {
   if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
     // The URL constructor is available in all browsers that support SW.
@@ -41,7 +41,7 @@ export default function register() {
         navigator.serviceWorker.ready.then(() => {
           console.log(
             'This web app is being served cache-first by a service ' +
-              'worker. To learn more, visit https://goo.gl/SC7cgQ'
+            'worker. To learn more, visit https://goo.gl/SC7cgQ'
           );
         });
       } else {
@@ -51,7 +51,7 @@ export default function register() {
     });
   }
 }
-
+/* istanbul ignore next */
 function registerValidSW(swUrl) {
   navigator.serviceWorker
     .register(swUrl)
@@ -80,7 +80,7 @@ function registerValidSW(swUrl) {
       console.error('Error during service worker registration:', error);
     });
 }
-
+/* istanbul ignore next */
 function checkValidServiceWorker(swUrl) {
   // Check if the service worker can be found. If it can't reload the page.
   fetch(swUrl)
@@ -107,7 +107,7 @@ function checkValidServiceWorker(swUrl) {
       );
     });
 }
-
+/* istanbul ignore next */
 export function unregister() {
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.ready.then(registration => {
