@@ -2,14 +2,15 @@ import React, { Component } from 'react';
 
 import NavigationBar from '../../components/NavigationBar/NavigationBar';
 
-class Home extends Component {
+class Pricing extends Component {
   render() {
     return(
       <div>
-        <NavigationBar selected="home" />
-        Home
+        <NavigationBar selected="pricing" />
+        Pricing
       </div>
-    );
+    )
   }
 }
-export default Home;
+
+export default Pricing;
