@@ -1,5 +1,7 @@
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/room127/homepage.svg?columns=all&style=flat-square)](https://waffle.io/room127/homepage)
 [![Build Status](https://travis-ci.com/room127/homepage.svg?branch=master)](https://travis-ci.com/room127/homepage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/be5a8b961d307e23906a/maintainability)](https://codeclimate.com/github/room127/homepage/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/be5a8b961d307e23906a/test_coverage)](https://codeclimate.com/github/room127/homepage/test_coverage)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
