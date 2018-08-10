@@ -1,7 +1,6 @@
 import React from 'react';
 
 import { BrowserRouter as Router } from 'react-router-dom';
-import ContactCard from "./components/ContactCard/ContactCard";
 import routes from './routes';
 
 export default function App() {
@@ -10,7 +9,6 @@ export default function App() {
       <Router>
         {routes}
       </Router>
-      <ContactCard name="Dunky" img="https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg" />
     </div>
   );
 }

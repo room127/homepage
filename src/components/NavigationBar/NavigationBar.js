@@ -16,9 +16,12 @@ class NavigationBar extends Component {
   render() {
     return (
       <div id="navigation-wrapper">
-
+        <div id="header-content-section">
+          <div id="vertical-bar" />
+          <h1 id="header-text">web<br />development<br />collective</h1>
+        </div>
         <nav id="navigation-links">
-          <Link className="nav-link selected" name="home" to="/" href="/">Home</Link>
+          <Link className="nav-link" name="home" to="/" href="/">Home</Link>
           <Link className="nav-link" name="about" to="/about" href="/about">About</Link>
           <Link className="nav-link" name="experience" to="/experience" href="/experience">Experience</Link>
           <Link className="nav-link" name="pricing" to="/pricing" href="/pricing">Pricing</Link>
