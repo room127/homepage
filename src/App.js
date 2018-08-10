@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { BrowserRouter as Router } from 'react-router-dom';
-import ContactCard from "./components/contact-card";
+import ContactCard from "./components/ContactCard/ContactCard";
 import routes from './routes';
 
 export default function App() {

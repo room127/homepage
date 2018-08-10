@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import './contact-card.css'
+import './ContactCard.css'
 
 class ContactCard extends Component {
   render() {
