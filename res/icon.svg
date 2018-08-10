@@ -1,0 +1,21 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+    .r {
+        font-family: 'Source Code Pro', monospace;
+        font-size: 150px;
+        line-height: 0;
+        fill: #000;
+    }
+    .dot {
+      font-family: 'Source Code Pro', monospace;
+      font-size: 150px;
+      line-height: 0;
+      fill: #EBABE9;
+    }
+  </style>
+  <g>
+    <text x="0" y="87.5%" class="r">r</text>
+    <text x="24%" y="87%" class='dot'>.</text>
+  </g>
+</svg>

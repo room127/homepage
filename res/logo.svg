@@ -1,0 +1,31 @@
+<svg viewBox="0 0 83 83" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+    .rm {
+        font-family: 'Source Code Pro', monospace;
+        font-size: 46px;
+        line-height: 0;
+        fill: #4B4B4B;
+    }
+    .dot {
+      font-family: 'Source Code Pro', monospace;
+      font-size: 46px;
+      line-height: 0;
+      fill: #EBABE9;
+    }
+    .onetwoseven {
+        font-family: 'Source Code Pro', monospace;
+        font-size: 46px;
+        line-height: 0;
+        fill: #F7F7F7;
+    }
+  </style>
+  <g>
+    <text x="0" y="50%" class="rm">rm</text>
+    <text x="66.66%" y="50%" class='dot'>.</text>
+  </g>
+  <g>
+    <rect width="100%" height="50%" x="0" y="50%" style="fill:#6E83C7" />
+    <text x="0" y="92.5%" class="onetwoseven">127</text>
+  </g>
+</svg>
