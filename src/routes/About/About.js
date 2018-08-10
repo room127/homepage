@@ -6,7 +6,7 @@ class About extends Component {
   render() {
     return(
       <div>
-        <NavigationBar selected="about" />
+        <NavigationBar  />
         About
       </div>
     );

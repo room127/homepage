@@ -6,7 +6,7 @@ class Pricing extends Component {
   render() {
     return(
       <div>
-        <NavigationBar selected="pricing" />
+        <NavigationBar  />
         Pricing
       </div>
     )

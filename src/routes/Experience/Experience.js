@@ -6,7 +6,7 @@ class Experience extends Component {
   render() {
     return(
       <div>
-        <NavigationBar selected="experience" />
+        <NavigationBar  />
         Experience
       </div>
     )
