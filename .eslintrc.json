@@ -17,5 +17,11 @@
       "jsx": true,
       "modules": true
     }
+  },
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/sort-prop-types": 2,
+    "react/jsx-no-bind": 1,
+    "react/require-default-props": 0
   }
 }
