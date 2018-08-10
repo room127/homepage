@@ -2,15 +2,15 @@ import React, { Component } from 'react';
 
 import NavigationBar from '../../components/NavigationBar/NavigationBar';
 
-class About extends Component {
+class Experience extends Component {
   render() {
     return(
       <div>
         <NavigationBar  />
-        About
+        Experience
       </div>
-    );
+    )
   }
 }
 
-export default About;
+export default Experience;

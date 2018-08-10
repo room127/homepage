@@ -2,15 +2,15 @@ import React, { Component } from 'react';
 
 import NavigationBar from '../../components/NavigationBar/NavigationBar';
 
-class About extends Component {
+class Pricing extends Component {
   render() {
     return(
       <div>
         <NavigationBar  />
-        About
+        Pricing
       </div>
-    );
+    )
   }
 }
 
-export default About;
+export default Pricing;

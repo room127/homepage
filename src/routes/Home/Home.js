@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+
+import NavigationBar from '../../components/NavigationBar/NavigationBar';
 
 class Home extends Component {
   render() {
     return(
       <div>
-        Home<br />
-        <Link to="/" href="/">Home</Link><br />
-        <Link to="/about" href="/about">About</Link>
+        <NavigationBar  />
+        Home
       </div>
     );
   }
