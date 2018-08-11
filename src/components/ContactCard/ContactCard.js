@@ -7,16 +7,16 @@ class ContactCard extends Component {
   render() {
     return (
       <div className="contact-card">
-        <h2>{this.props.name}</h2>
-        <img src={this.props.img} alt="Profile" />
+        <img className="profile-pic" src={this.props.img} alt="Profile" />
+        <h3>{this.props.name}</h3>
       </div>
     );
   }
 }
 
 ContactCard.propTypes = {
-  name: PropTypes.string,
-  img: PropTypes.string
+  img: PropTypes.string,
+  name: PropTypes.string
 }
 
 export default ContactCard;

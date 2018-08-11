@@ -8,7 +8,7 @@ it('should render', () => {
 });
 it('should render name from props', () => {
   const card = shallow(<ContactCard name="testName123" />);
-  expect(card.contains(<h2>testName123</h2>)).toEqual(true);
+  expect(card.contains(<h2 className="content-title">testName123</h2>)).toEqual(true);
 });
 it('should render image from props', () => {
   const card = shallow(<ContactCard img="testName123" />);

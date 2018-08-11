@@ -1,0 +1,25 @@
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  text-align: left;
+}
+
+p {
+  width: 60%;
+}
+
+.content-title {
+  width: 60%;
+  color: #4E4E4E;
+  font-weight: medium;
+  margin: 16px 0 0 0;
+  text-align: left;
+}
+
+@media only screen and (max-width: 690px) {
+  p, .content-title {
+    width: 90%;
+  }
+}
