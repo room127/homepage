@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import propTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
 
 import './NavigationBar.css';
@@ -8,13 +7,6 @@ import logo from '../../res/tempLogo@2x.png';
 import icon from '../../res/icon@2x.png';
 
 class NavigationBar extends Component {
-
-  // componentDidMount() {
-  //   if (this.props.selected) {
-  //     const selectedNavItem = document.getElementsByName(this.props.selected)[0]
-  //     selectedNavItem.classList.add('selected');
-  //   }
-  // }
   render() {
     return (
       <div id="navigation-wrapper">
@@ -37,9 +29,5 @@ class NavigationBar extends Component {
     )
   }
 }
-
-// NavigationBar.propTypes = {
-//   selected: propTypes.string,
-// };
 
 export default NavigationBar;
