@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import propTypes from 'prop-types';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import './NavigationBar.css';
 
@@ -15,7 +15,6 @@ class NavigationBar extends Component {
   //     selectedNavItem.classList.add('selected');
   //   }
   // }
-
   render() {
     return (
       <div id="navigation-wrapper">
@@ -28,11 +27,11 @@ class NavigationBar extends Component {
             <span id="subtext">pushing freelance web <br />development into the<br /> future</span>
           </div>
         </div>
-      <nav id="nav-bottom">
-          <Link className="nav-link" name="home" to="/" href="/">Home</Link>
-          <Link className="nav-link" name="experience" to="/experience" href="/experience">Experience</Link>
-          <Link className="nav-link" name="pricing" to="/pricing" href="/pricing">Pricing</Link>
-          <Link className="nav-link" name="about" to="/about" href="/about">About</Link>
+        <nav id="navigation-links">
+          <NavLink exact className="nav-link hvr-underline-from-left" activeClassName="selected" name="home" to="/" href="/">Home</NavLink>
+          <NavLink exact className="nav-link hvr-underline-from-left" activeClassName="selected" name="experience" to="/experience" href="/experience">Experience</NavLink>
+          <NavLink exact className="nav-link hvr-underline-from-left" activeClassName="selected" name="pricing" to="/pricing" href="/pricing">Pricing</NavLink>
+          <NavLink exact className="nav-link hvr-underline-from-left" activeClassName="selected" name="about" to="/about" href="/about">About</NavLink>
         </nav>
       </div>
     )
