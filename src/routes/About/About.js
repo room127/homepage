@@ -9,16 +9,21 @@ class About extends Component {
       <div>
         <NavigationBar />
         <div className="page-content">
-          <h2 className="content-title">About</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <h2 className="content-title">About Us</h2>
+          <p>
+            Our team is made up of four college students, two are rising sophmores and two are rising freshmen.
+            We are incredibly passionate about web development and are always working on small side projects.
+            Our combined background in both formal computer science and web development makes us unique in the
+            freelance world. We utlilize the our technical knowledge to create better, faster, and more intuitive
+            web experiences.
           </p>
 
-          <h2 className="content-title">Our Team</h2>
+          <h2 className="content-title">Meet the developers</h2>
           <div>
+            <ContactCard name="Sebastian Boyd" img="https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg" />
             <ContactCard name="Duncan Grubbs" img="https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg" />
-            <ContactCard name="Duncan Grubbs" img="https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg" />
-            <ContactCard name="Duncan Grubbs" img="https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg" />
-            <ContactCard name="Duncan Grubbs" img="https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg" />
+            <ContactCard name="Leo Krashanoff" img="https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg" />
+            <ContactCard name="Max Starr" img="https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg" />
           </div>
         </div>
       </div>

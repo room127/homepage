@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 import NavigationBar from '../../components/NavigationBar/NavigationBar';
 
 import './Home.css';
@@ -14,12 +14,23 @@ class Home extends Component {
           <p>
             room127 was created by a group of college students who believed the freelance web development community could be changed. for the better.
           </p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <p>
+            We met in high school where we would all hang around the same room during lunch, room 127. Throughout high school and even
+            into college, we were all passionate about web development. However, we thought that the current enviroment was filled with
+            old frameworks, bad practices, slow load times, and much more. We set out to change all of that.
           </p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <h2 className="content-title">What we do.</h2>
+          <p>
+            Just like most freelance web development companies, we take your website idea, and turn it into a reality. Wether you are looking
+            for a personal website, or a fully functioning app, we have you covered. What&apos;s the difference between us and the rest of them,
+            well we do things better. We take advantage of the latest, fastest web frameworks and technologies so your website is future proof.
+            We make sure your website follows a11y standards so everyone is able to access it.
           </p>
           
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <p>
+            Our proccess starts with you contacting us with an idea. We then assess your idea and work to put you in the
+            right <Link to="/pricing" href="/pricing">pricing</Link> tier. Then, we assign a team to your project and get
+            working, updating you along the way so you the exact progress on your website at a given time.
           </p>
         </div>
       </div>
