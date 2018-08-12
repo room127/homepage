@@ -15,7 +15,6 @@ class NavigationBar extends Component {
   //     selectedNavItem.classList.add('selected');
   //   }
   // }
-
   render() {
     return (
       <div id="navigation-wrapper">
@@ -29,10 +28,10 @@ class NavigationBar extends Component {
           </div>
         </div>
         <nav id="navigation-links">
-          <NavLink exact className="nav-link" activeClassName="selected" name="home" to="/" href="/">Home</NavLink>
-          <NavLink exact className="nav-link" activeClassName="selected" name="experience" to="/experience" href="/experience">Experience</NavLink>
-          <NavLink exact className="nav-link" activeClassName="selected" name="pricing" to="/pricing" href="/pricing">Pricing</NavLink>
-          <NavLink exact className="nav-link" activeClassName="selected" name="about" to="/about" href="/about">About</NavLink>
+          <NavLink exact className="nav-link hvr-underline-from-left" activeClassName="selected" name="home" to="/" href="/">Home</NavLink>
+          <NavLink exact className="nav-link hvr-underline-from-left" activeClassName="selected" name="experience" to="/experience" href="/experience">Experience</NavLink>
+          <NavLink exact className="nav-link hvr-underline-from-left" activeClassName="selected" name="pricing" to="/pricing" href="/pricing">Pricing</NavLink>
+          <NavLink exact className="nav-link hvr-underline-from-left" activeClassName="selected" name="about" to="/about" href="/about">About</NavLink>
         </nav>
       </div>
     )
