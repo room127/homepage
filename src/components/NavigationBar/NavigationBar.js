@@ -5,12 +5,17 @@ import './NavigationBar.css';
 
 import logo from '../../res/tempLogo@2x.png';
 import icon from '../../res/icon@2x.png';
+import RightCorner from '../svgs/RightCorner';
+import LeftSide from '../svgs/LeftSide';
 
 class NavigationBar extends Component {
   render() {
     return (
       <div id="navigation-wrapper">
-        <div id="nav-top"><img id="" src={icon} alt="Icon" /></div>
+        <div id="nav-top">
+          <img src={icon} alt="Icon" />
+          <RightCorner />
+        </div>
         <div id="nav-middle">
           <img id="big-logo" src={logo} alt="Logo" />
           <div id="vertical-bar" />
@@ -19,6 +24,7 @@ class NavigationBar extends Component {
             <span id="subtext">pushing freelance web <br />development into the<br /> future</span>
           </div>
         </div>
+        <LeftSide />
         <nav id="navigation-links">
           <NavLink exact className="nav-link hvr-underline-from-left" activeClassName="selected" name="home" to="/" href="/">Home</NavLink>
           <NavLink exact className="nav-link hvr-underline-from-left" activeClassName="selected" name="experience" to="/experience" href="/experience">Experience</NavLink>
