@@ -1,0 +1,19 @@
+#img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54%;
+  height: 200px;
+}
+
+.tool-icon {
+  width: 40%;
+  height: auto;
+  margin: 0 32px;
+}
+
+@media only screen and (max-width: 690px) {
+  #img-wrapper {
+    width: 90%;
+  }
+}

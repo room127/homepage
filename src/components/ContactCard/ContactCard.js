@@ -7,8 +7,9 @@ class ContactCard extends Component {
   render() {
     return (
       <div className="contact-card">
-        <img className="profile-pic" src={this.props.img} alt="Profile" />
-        <h3>{this.props.name}</h3>
+        <div className="profile-pic" />
+        <br />
+        <span>{this.props.name}</span>
       </div>
     );
   }

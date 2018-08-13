@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import NavigationBar from '../../components/NavigationBar/NavigationBar';
 import ContactCard from '../../components/ContactCard/ContactCard';
 
+import './About.css';
+
 class About extends Component {
   render() {
     return (
@@ -19,7 +21,7 @@ class About extends Component {
           </p>
 
           <h2 className="content-title">Meet the developers</h2>
-          <div>
+          <div id="meet-section">
             <ContactCard name="Sebastian Boyd" img="https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg" />
             <ContactCard name="Duncan Grubbs" img="https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg" />
             <ContactCard name="Leo Krashanoff" img="https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg" />
