@@ -79,6 +79,9 @@
   #vertical-bar, #big-logo, #subtext {
     display: none;
   }
+  #navigation-wrapper {
+    height: 450px;
+  }
 }
 
 .hvr-underline-from-left {
