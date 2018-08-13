@@ -1,0 +1,28 @@
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  text-align: left;
+}
+
+p {
+  width: 54%;
+  color: #4E4E4E;
+  font-size: 1.3em;
+}
+
+.content-title {
+  width: 54%;
+  color: #4E4E4E;
+  font-weight: medium;
+  font-size: 1.7em;
+  margin: 16px 0 0 0;
+  text-align: left;
+}
+
+@media only screen and (max-width: 690px) {
+  p, .content-title {
+    width: 90%;
+  }
+}
