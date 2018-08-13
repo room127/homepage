@@ -21,6 +21,12 @@ p {
   text-align: left;
 }
 
+#pricing-link {
+  color: #4E4E4E;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 @media only screen and (max-width: 690px) {
   p, .content-title {
     width: 90%;

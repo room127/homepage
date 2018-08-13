@@ -24,7 +24,7 @@ class Home extends Component {
           
           <p>
           Our proccess starts with you contacting us with an idea. We then assess your idea and work to put you in the
-          right <Link to="/pricing" href="/pricing">pricing</Link> tier. Then, we assign a team to your project and get
+          right <Link id="pricing-link" to="/pricing" href="/pricing">pricing</Link> tier. Then, we assign a team to your project and get
           working, updating you along the way so you the exact progress on your website at a given time.
           </p>
         </div>

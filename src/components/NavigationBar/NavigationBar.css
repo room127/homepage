@@ -135,7 +135,7 @@
   #navigation-wrapper {
     height: 450px;
   }
-  #left-side {
+  #left-side, #right-corner {
    display: none;
   }
 }
