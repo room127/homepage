@@ -14,6 +14,7 @@ class Experience extends Component {
         <NavigationBar />
         <div className="page-content">
           <h2 className="content-title">Web Experience</h2>
+          <div className="horizontal-line" />
           <p>
           We have over 20 years combined experience in modern web development and design, working
           in both academic and professional settings.
@@ -23,11 +24,13 @@ class Experience extends Component {
           </p>
 
           <h2 className="content-title">Tools We Use</h2>
+          <div className="horizontal-line" />
           <div id="img-wrapper">
             <img className="tool-icon" src={mongodb} alt="Mongo" />
             <img className="tool-icon" src={polymer} alt="Polymer" />
           </div>
           <h2 className="content-title">Our Work</h2>
+          <div className="horizontal-line" />
           <p>We currently do not have any past clients.</p>
           <p>Be the first?</p>
         </div>

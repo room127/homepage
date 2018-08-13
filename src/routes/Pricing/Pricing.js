@@ -11,6 +11,7 @@ class Pricing extends Component {
         <NavigationBar />
         <div className="page-content">
           <h2 className="content-title">Pricing</h2>
+          <div className="horizontal-line" />
           <p>
           Out pricing system is based around tiers. We offer three different tiers of websites at three different prices.
           </p>

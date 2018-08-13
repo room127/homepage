@@ -1,7 +1,7 @@
 .pricing-tier-header {
   display: flex;
   flex-direction: row;
-  width: 54%;
+  width: 100%;
   margin: 8px 0;
 }
 
@@ -27,10 +27,4 @@
 
 .price {
   text-align: right;
-}
-
-@media only screen and (max-width: 690px) {
-  .pricing-tier-header {
-    width: 90%;
-  }
 }
