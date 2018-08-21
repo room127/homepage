@@ -17,3 +17,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - **Waffle** for issue tracking.
 - **Code Climate** for code quality statistics and test coverage.
 
+### Deployment
+- First install the Surge CLI if you haven't already
+  - `npm i -g surge`
+  - run `surge login` and enter group credentials
+- Run `yarn run build` to build project for deployment
+- Run `yarn run deploy` to deploy to surge; all config should be taken care of by that command
+
+Alternatively any *direct* push to the master branch will trigger Travis CI to do all this automatically *if* the build passes so be careful.
