@@ -1,11 +1,23 @@
 .pricing-tier-header {
   display: flex;
   flex-direction: row;
-  width: 54%;
+  width: 100%;
+  margin: 16px 0 4px 0;
+}
+
+.level-one {
+  color: #7E622F;
+}
+
+.level-two {
+  color: #77746D;
+}
+
+.level-three {
+  color: #D0AB68;
 }
 
 .tier-header-text {
-  color: #4E4E4E;
   font-weight: medium;
   font-size: 1.7em;
   margin: 0;
@@ -15,10 +27,4 @@
 
 .price {
   text-align: right;
-}
-
-@media only screen and (max-width: 690px) {
-  .pricing-tier-header {
-    width: 90%;
-  }
 }

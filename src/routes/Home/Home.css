@@ -2,18 +2,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 8px;
+  box-sizing: border-box;
+  margin: 20px auto;
   text-align: left;
+  width: 50%;
 }
 
 p {
-  width: 54%;
+  width: 100%;
   color: #4E4E4E;
   font-size: 1.3em;
+  margin: 12px 0;
 }
 
 .content-title {
-  width: 54%;
+  width: 100%;
   color: #4E4E4E;
   font-weight: medium;
   font-size: 1.7em;
@@ -21,8 +24,22 @@ p {
   text-align: left;
 }
 
+#pricing-link {
+  color: #4E4E4E;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.horizontal-line {
+  width: 72px;
+  height: 1px;
+  margin: 4px 2px;
+  background: #6E83C7;
+  align-self: flex-start;
+}
+
 @media only screen and (max-width: 690px) {
-  p, .content-title {
+  .page-content {
     width: 90%;
   }
 }
