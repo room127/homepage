@@ -8,7 +8,7 @@ import './Home.css';
 class Home extends Component {
   render() {
     return(
-      <div>
+    <div>
         <NavigationBar />
         <div className="page-content">
           <h2 className="content-title">Who we are.</h2>

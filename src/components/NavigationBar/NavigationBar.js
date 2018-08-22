@@ -13,14 +13,14 @@ class NavigationBar extends Component {
     return (
       <div id="navigation-wrapper">
         <div id="nav-top">
-          <img src={icon} alt="Icon" />
+        <img id="icon" src={icon} alt="Icon" />
           <RightCorner />
         </div>
         <div id="nav-middle">
           <img id="big-logo" src={logo} alt="Logo" />
           <div id="vertical-bar" />
           <div id="header-text">
-            <span id="bigtext">web<br />development<br />collective</span><br />
+            <span id="bigtext">web<br />development<br />collective.</span><br />
             <span id="subtext">pushing freelance web <br />development into the<br /> future</span>
           </div>
         </div>

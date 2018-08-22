@@ -1,10 +1,12 @@
 #footer {
   display: flex;
-  width: 100%;
+  width: 100vw;
   background: #4B4B4B;
   height: 25vh;
   margin-top: 64px;
+  overflow-x: hidden;
   padding: 16px;
+  box-sizing: border-box;
 }
 
 .footer-text-section {
