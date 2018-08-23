@@ -1,5 +1,6 @@
 #footer {
   display: flex;
+  flex-direction: column;
   width: 100%;
   background: #4B4B4B;
   height: 25vh;
@@ -7,6 +8,12 @@
   overflow-x: hidden;
   padding: 16px;
   box-sizing: border-box;
+}
+
+#footer-links {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
 }
 
 .footer-text-section {
@@ -22,6 +29,21 @@
 .footer-link {
   margin: 2px 0;
   color: #FFF;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+.footer-link:hover {
+  color: #EBABE9;
+}
+
+#copywrite {
+  display: flex;
+  justify-content: center;
+  margin: auto 0 0 0;
+  color: white;
+  width: 100%;
+  font-size: .9em;
 }
 
 @media only screen and (max-width: 690px) {
