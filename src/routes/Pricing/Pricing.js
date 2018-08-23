@@ -20,7 +20,7 @@ class Pricing extends Component {
             <h2 className="tier-header-text price">$100</h2>
           </div>
           <p>
-          A static website (no backend functionality, database, search queries, etc.) with up to four pages. Already designed either professionally or by yourself. Maintenence for up to one month after deployment.
+          A static website (no backend functionality, database, search queries, etc.) with up to four pages. Already designed either professionally or by yourself. Maintenance for up to one month after deployment.
           </p>
 
           <div className="pricing-tier-header level-two">
@@ -28,7 +28,7 @@ class Pricing extends Component {
             <h2 className="tier-header-text price">$200</h2>
           </div>
           <p>
-          A non-static website with limited backend functionality* with up to 8 pages. Already designed either professionally or by yourself. Maintenence for up to two months after deployment.
+          A non-static website with limited backend functionality* with up to 8 pages. Already designed either professionally or by yourself. Maintenance for up to two months after deployment.
           </p>
           
           <div className="pricing-tier-header level-three">
@@ -36,7 +36,7 @@ class Pricing extends Component {
             <h2 className="tier-header-text price">$500</h2>
           </div>
           <p>
-          A non-static website with full backend functionality* and unlimited frontend pages. Already designed either professionally or by yourself, with some design assistance by our teams. Maintenence for up to six months after deployment.
+          A non-static website with full backend functionality* and unlimited frontend pages. Already designed either professionally or by yourself, with some design assistance by our teams. Maintenance for up to six months after deployment.
           </p>
         </div>
       </div>
