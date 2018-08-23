@@ -27,10 +27,8 @@ class Experience extends Component {
           <h2 className="content-title">Tools We Use</h2>
           <div className="horizontal-line" />
           <div id="img-wrapper">
-            
             <img className="tool-icon" src={node} alt="Node" />
             <img className="tool-icon" src={react} alt="React" />
-            
             </div>
           <div id="img-wrapper">
             <img className="tool-icon" src={mongodb} alt="Mongo" />

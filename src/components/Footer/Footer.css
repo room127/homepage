@@ -22,6 +22,12 @@
 .footer-link {
   margin: 2px 0;
   color: #FFF;
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+.footer-link:hover {
+  color: #EBABE9;
 }
 
 @media only screen and (max-width: 690px) {
