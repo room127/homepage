@@ -5,7 +5,8 @@ import NavigationBar from '../../components/NavigationBar/NavigationBar';
 import './Experience.css';
 
 import mongodb from '../../res/mongodb.png';
-import polymer from '../../res/polymer.png';
+import node from '../../res/node.png';
+import react from '../../res/react.png';
 
 class Experience extends Component {
   render() {
@@ -26,8 +27,13 @@ class Experience extends Component {
           <h2 className="content-title">Tools We Use</h2>
           <div className="horizontal-line" />
           <div id="img-wrapper">
+            
+            <img className="tool-icon" src={node} alt="Node" />
+            <img className="tool-icon" src={react} alt="React" />
+            
+            </div>
+          <div id="img-wrapper">
             <img className="tool-icon" src={mongodb} alt="Mongo" />
-            <img className="tool-icon" src={polymer} alt="Polymer" />
           </div>
           <h2 className="content-title">Our Work</h2>
           <div className="horizontal-line" />
