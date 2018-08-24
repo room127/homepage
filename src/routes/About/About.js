@@ -14,7 +14,7 @@ class About extends Component {
           <h2 className="content-title">About Us</h2>
           <div className="horizontal-line" />
           <p>
-          Our team is made up of four college students, two are rising sophomores and two are rising freshmen. We are incredibly passionate about web development and are always working on small side projects. Our combined background in both formal computer science and web development makes us unique in the freelance world. We utilize our technical knowledge to create better, faster, and more intuitive web experiences.
+            Our team is made up of four college students, two are rising sophomores and two are rising freshmen. We are incredibly passionate about web development and are always working on small side projects. Our combined background in both formal computer science and web development makes us unique in the freelance world. We utilize our technical knowledge to create better, faster, and more intuitive web experiences.
           </p>
           <h2 className="content-title">Meet the Developers</h2>
           <div className="horizontal-line" />
@@ -22,7 +22,7 @@ class About extends Component {
             <ContactCard
               name="Sebastian Boyd"
               position="UC Davis"
-              img="#" />
+            />
             <ContactCard
               name="Duncan Grubbs"
               position="University of Rochester"
@@ -30,11 +30,11 @@ class About extends Component {
             <ContactCard
               name="Leo Krashanoff"
               position="UCLA"
-              img="#" />
+            />
             <ContactCard
               name="Max Starr"
               position="UCSC"
-              img="#" />
+            />
           </div>
         </div>
       </div>
